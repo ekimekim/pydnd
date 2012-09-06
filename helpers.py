@@ -1,5 +1,3 @@
-import itertools as it
-
 
 def from_bases(*bases):
 	return type(','.join(bases), bases, {})
